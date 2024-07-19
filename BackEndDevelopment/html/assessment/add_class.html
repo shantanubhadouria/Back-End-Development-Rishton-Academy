@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Class</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Add Class</h1>
+    </header>
+    <div class="form-container">
+        <form action="add_class.php" method="post">
+            <label for="class_name">Class Name:</label>
+            <input type="text" id="class_name" name="class_name" required>
+            
+            <label for="capacity">Capacity:</label>
+            <input type="number" id="capacity" name="capacity" required>
+            
+            <label for="number_of_students">Number of Students:</label>
+            <input type="number" id="number_of_students" name="number_of_students" required>
+            
+            <label for="number_of_teachers">Number of Teachers:</label>
+            <input type="number" id="number_of_teachers" name="number_of_teachers" required>
+            
+            <button type="submit">Add Class</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Primary School Management System</p>
+    </footer>
+</body>
+</html>

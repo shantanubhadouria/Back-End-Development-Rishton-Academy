@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="d-flex" id="wrapper">
+        <!-- Sidebar -->
+        <div class="bg-primary border-right" id="sidebar-wrapper">
+            <div class="sidebar-heading">School Management</div>
+            <div class="list-group list-group-flush">
+                <a href="pupils.html" class="list-group-item list-group-item-action bg-primary text-white">Pupil Management</a>
+                <a href="teachers.html" class="list-group-item list-group-item-action bg-primary text-white">Teacher Management</a>
+                <a href="classes.html" class="list-group-item list-group-item-action bg-primary text-white">Class Management</a>
+                <a href="attendance.html" class="list-group-item list-group-item-action bg-primary text-white">Attendance</a>
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container-fluid">
+                <h1 class="mt-4">Welcome to Rishton Academy Management System</h1>
+                <div class="row">
+                    <!-- Quick Stats -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="card text-white bg-info">
+                            <div class="card-body">
+                                <h5 class="card-title">Students</h5>
+                                <p class="card-text">10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="card text-white bg-success">
+                            <div class="card-body">
+                                <h5 class="card-title">Teachers</h5>
+                                <p class="card-text">10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="card text-white bg-warning">
+                            <div class="card-body">
+                                <h5 class="card-title">Classes</h5>
+                                <p class="card-text">10</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="card text-white bg-danger">
+                            <div class="card-body">
+                                <h5 class="card-title">Exams</h5>
+                                <p class="card-text">3 Upcoming</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Pupil Management -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Pupil Management</h5>
+                                <p class="card-text">Manage pupil records including adding, updating, and deleting pupils.</p>
+                                <a href="pupils.html" class="btn btn-primary">Go to Pupil Management</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Teacher Management -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Teacher Management</h5>
+                                <p class="card-text">Manage teacher records including adding, updating, and deleting teachers.</p>
+                                <a href="teachers.html" class="btn btn-primary">Go to Teacher Management</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Class Management -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Class Management</h5>
+                                <p class="card-text">Manage class records including adding, updating, and deleting classes.</p>
+                                <a href="classes.html" class="btn btn-primary">Go to Class Management</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Attendance -->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Attendance</h5>
+                                <p class="card-text">View and manage attendance records.</p>
+                                <a href="attendance.html" class="btn btn-primary">Go to Attendance</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Recent Activities -->
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                                Recent Activities
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Added new pupil: John Doe</li>
+                                    <li class="list-group-item">Updated class details for Class 10</li>
+                                    <li class="list-group-item">Deleted teacher record: Jane Smith</li>
+                                    <li class="list-group-item">Scheduled exam for Class 5</li>
+                                    <li class="list-group-item">Library book issued to Pupil ID 7</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Notifications -->
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                                Notifications
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Teacher meeting scheduled for Friday</li>
+                                    <li class="list-group-item">Parent-Teacher conference on Monday</li>
+                                    <li class="list-group-item">New library books added</li>
+                                    <li class="list-group-item">Sports day event on Saturday</li>
+                                    <li class="list-group-item">School picnic next month</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+</body>
+</html>
